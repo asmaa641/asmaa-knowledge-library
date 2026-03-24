@@ -167,8 +167,11 @@ requests.get(url, headers=headers)
 
 💡 Key Insight
 
-Web scraping =
-
-Crawler + Parser + Data Pipeline
+Web scraping = Crawler + Parser + Data Pipeline, not just coding
 
 ✅ Minimal Setup
+```
+python3 -m venv env
+source env/bin/activate
+pip3 install requests beautifulsoup4
+``` 
